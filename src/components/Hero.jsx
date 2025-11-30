@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Image from '/public/anilpro.png';
 
 const Hero = () => {
   return (
@@ -57,7 +58,7 @@ const Hero = () => {
               //   overflow:'hidden',
               // }}
             >
-              <img className="my-image" src="/anilpro.png"/>
+              <img className="my-image" src={Image}/>
             </div>
           </Col>
         </Row>
