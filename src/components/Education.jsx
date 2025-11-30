@@ -1,5 +1,5 @@
 import React from "react";
-import {  Row, Col, Card,  } from "react-bootstrap";
+import { Container, Row, Col, Card,  } from "react-bootstrap";
 
 const Education = () => {
   const educationData = [
@@ -68,6 +68,7 @@ const Education = () => {
   ];
 
   return (
+    <Container>
     <section id="education" className="section-padding ">
      
         <h2 className="section-title">Education</h2>
@@ -129,6 +130,7 @@ const Education = () => {
         </Row>
       
     </section>
+   </Container>
   );
 };
 
