@@ -2,7 +2,7 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 const AboutIntro = () => {
   return (
-    <>
+    <Container>
      {/* !-- right: about content --*/}
     <section class="about-card" aria-label="About me">
       <h2 id="about-heading" >Introduction</h2>
@@ -17,7 +17,7 @@ I am skilled in Java, React, JavaScript, HTML & CSS, Word, Excel, and PowerPoint
       
 
     </section>
-    </>
+    </Container>
   );
 };
 export default AboutIntro;
