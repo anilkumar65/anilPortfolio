@@ -8,12 +8,13 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
+import { Container, Row, Col, Card,  } from "react-bootstrap";
 
 function App() {
  
 
   return (
-    <>
+    <Container>
       <Header />
       <Hero></Hero>
       <hr/>
@@ -27,7 +28,7 @@ function App() {
       <Contact></Contact>
       <Footer></Footer>
       
-    </>  
+    </Container>  
   
   )
 }
