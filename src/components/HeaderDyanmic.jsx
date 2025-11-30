@@ -33,6 +33,7 @@ const Header = () => {
     }, []);
   
     return (
+    <Container>
       <Navbar bg="white" expand="lg" fixed="top" className="shadow-sm">
         <Container>
           <Navbar.Brand href="#home" className="fw-bold text-primary">
@@ -82,6 +83,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+     </Container>
     );
   
 };
