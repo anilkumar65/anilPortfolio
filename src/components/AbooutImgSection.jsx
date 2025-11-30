@@ -1,10 +1,10 @@
-
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 
 
 const AboutImgSection = () => {
     return(
- <>
+ <Container>
 
     {/* --left: profile --*/}
     <section class = "profile-card" aria-label="Profile summary">
@@ -28,7 +28,7 @@ const AboutImgSection = () => {
 
       </div>
     </section>
-    </>
+    </Container>
 
     )
 };
