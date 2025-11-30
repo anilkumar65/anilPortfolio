@@ -5,7 +5,7 @@ import AboutIntro from './AboutIntro';
 
 const About = () => {
   return (
-    <>
+    <Container>
    <center> <h2 >About</h2>
     <section id="about" className="section-padding about-wrap" >
      <AboutImgSection></AboutImgSection>
@@ -13,7 +13,7 @@ const About = () => {
       
     </section>
     </center>
-    </>
+    </Container>
   );
 };
 
